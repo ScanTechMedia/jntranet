@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>de.fcernota</groupId>
   <artifactId>jntranet</artifactId>
-
+  <version>0.0.x</version>
   <packaging>war</packaging>
   <build>
     <finalName>$\{project.artifactId}-$\{project.version}-r$\{buildNumber}</finalName>
