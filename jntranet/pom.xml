@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>de.fcernota</groupId>
   <artifactId>jntranet</artifactId>
-  <version>0.0.x</version>
+  <version>0.0.1</version>
   <packaging>war</packaging>
   <build>
     <finalName>$\{project.artifactId}-$\{project.version}-r$\{buildNumber}</finalName>
@@ -24,23 +24,7 @@
           <target>1.7</target>
         </configuration>
       </plugin>
-      <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-war-plugin</artifactId>
-            <configuration>
-                <manifest>
-                    <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
-                </manifest>
-                  <archive>
-            <manifest>
-              <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
-            </manifest>
-            <manifestEntries>
-              <Implementation-Build>$\{buildNumber}</Implementation-Build>
-            </manifestEntries>
-          </archive>
-            </configuration>
-        </plugin>
+      
          <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>buildnumber-maven-plugin</artifactId>
