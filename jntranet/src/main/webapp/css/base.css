@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+/*
+* BASE CSS FILE 
+*/
+
+
+body{
+background-color:#424242;
+
+
+}
+div.header{
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+	height:110px;
+}
+div.header div.nav{
+	
+	width:450px;
+	height:50px;
+	background-color:#eeeeee;
+	float: right;
+	margin-top:25px;
+	-webkit-box-shadow: 1px 1px 15px 1px #36BCFF;
+box-shadow: 1px 1px 15px 1px #36BCFF;
+-webkit-border-radius: 10px 10px 10px 10px;
+border-radius: 10px 10px 10px 10px;
+}
+div.header div.nav ul.navigation li{
+	display:inline;
+	list-style: none;
+	text-decoration: none;
+	color:black;
+	font-size:18px;
+	margin-left:10px;
+	
+}
+div.header div.nav ul.navigation li a{
+	display:inline;
+	list-style: none;
+	text-decoration: none;
+	color:black;
+	font-size:18px;
+	font-family:ariel;
+	
+	
+}
