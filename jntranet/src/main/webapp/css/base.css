@@ -46,3 +46,19 @@ div.header div.nav ul.navigation li a{
 	
 	
 }
+
+/* Main Content */
+
+div.maincontent{
+	min-height:200px;
+	max-height:auto;
+	width:1000px;
+	background-color: #eeeeee;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+		-webkit-box-shadow: 1px 1px 15px 1px #36BCFF;
+box-shadow: 1px 1px 15px 1px #36BCFF;
+-webkit-border-radius: 10px 10px 10px 10px;
+border-radius: 10px 10px 10px 10px;
+}
