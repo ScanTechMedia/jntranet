@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"   
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+	</head>    
+    <body>
+    <!-- Header -->
+		<div class="header">
+			<img class="logo" src="css/img/jntranet_logo.png"/>
+			<div class="nav">
+				<ul class="navigation">
+					<li><a href="#">Test</a></li>
+					<li><a href="#">Test</a></li>
+				</ul>
+			</div>
+		</div>	
+	<!-- End Header -->
+	
+		<div class="maincontent">
+				
+				<h2> Hallo <h:outputLabel value="#{userBean.username}"/></h2>
+<h:form>
+    		<h:dataTable value="#{order.orderList}" var="o"
+    			styleClass="order-table"
+    			headerClass="order-table-header"
+    			rowClasses="order-table-odd-row,order-table-even-row"
+    		>
+ 
+    		<h:column>
+ 
+    			<f:facet name="header">Order No</f:facet>
+    			#{o.orderNo}
+ 
+    		</h:column>
+ 
+    		<h:column>
+ 
+    			<f:facet name="header">Product Name</f:facet>
+    			#{o.productName}
+ 
+    		</h:column>
+ 
+    		<h:column>
+ 
+    			<f:facet name="header">Price</f:facet>
+    			#{o.price}
+ 
+    		</h:column>
+ 
+    		<h:column>
+ 
+    			<f:facet name="header">Quantity</f:facet>
+    			#{o.qty}
+ 
+    		</h:column>
+ 
+    		<h:column>
+ 
+    			<f:facet name="header">Action</f:facet>
+ 
+    		</h:column>
+ 
+    		</h:dataTable>
+ 
+    		
+ 
+  
+ 
+				</h:form>
+                
+			</div>
+ 
+    </body>
+ 
+</html>

@@ -2,11 +2,11 @@
 /*
 * BASE CSS FILE 
 */
-
+@import url(http://fonts.googleapis.com/css?family=Nixie+One);
 
 body{
 background-color:#424242;
-
+font-family:"Nixie One";
 
 }
 div.header{
@@ -21,7 +21,7 @@ div.header div.nav{
 	height:50px;
 	background-color:#eeeeee;
 	float: right;
-	margin-top:25px;
+	margin-top:30px;
 	-webkit-box-shadow: 1px 1px 15px 1px #36BCFF;
 box-shadow: 1px 1px 15px 1px #36BCFF;
 -webkit-border-radius: 10px 10px 10px 10px;
@@ -56,9 +56,37 @@ div.maincontent{
 	background-color: #eeeeee;
 	margin-left:auto;
 	margin-right:auto;
-	margin-top:20px;
+	margin-top:16px;
 		-webkit-box-shadow: 1px 1px 15px 1px #36BCFF;
 box-shadow: 1px 1px 15px 1px #36BCFF;
 -webkit-border-radius: 10px 10px 10px 10px;
 border-radius: 10px 10px 10px 10px;
+ padding: 15px;
+}
+
+
+.order-table{   
+	border-collapse:collapse;
+	width: 90%;
+	margin-left:auto;
+	margin-right:auto;
+}
+ 
+.order-table-header{
+	text-align:center;
+	background:none repeat scroll 0 0 #E5E5E5;
+	border-bottom:1px solid #BBBBBB;
+	padding:16px;
+}
+ 
+.order-table-odd-row{
+	text-align:center;
+	background:none repeat scroll 0 0 #FFFFFFF;
+	border-top:1px solid #BBBBBB;
+}
+ 
+.order-table-even-row{
+	text-align:center;
+	background:none repeat scroll 0 0 #F9F9F9;
+	border-top:1px solid #BBBBBB;
 }
