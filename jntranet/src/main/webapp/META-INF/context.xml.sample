@@ -1,0 +1,14 @@
+<Context>
+<!-- Dont change jdbc/jntranet 
+Copy this file to META-INF/context.xml
+
+username <<-- your MySQL username
+password <<-- your MySQL password
+->
+  <Resource name="jdbc/jntranet" auth="Container" type="javax.sql.DataSource"
+               maxActive="50" maxIdle="30" maxWait="10000"
+               username="mysqluser" password="mysqlpassword" 
+               driverClassName="com.mysql.jdbc.Driver"
+               url="jdbc:mysql://<ip>:<port>/<database_name>"/>
+ 
+</Context>

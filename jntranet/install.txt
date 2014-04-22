@@ -1,0 +1,10 @@
+Installing of jntranet:
+
+download LIBS at https://github.com/ScanTechMedia/jntranet-tomcat-libs
+ and copy to $TOMCAT/lib
+
+Copy META-INF/context.xml.sample -> META-INF/context.xml
+
+Change JDBC Settings to your own MYSQL
+
+=============================================
